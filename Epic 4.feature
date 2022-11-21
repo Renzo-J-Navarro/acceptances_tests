@@ -4,8 +4,8 @@ Como comprador quiero tener más variedad de productos, precios y promociones en
 
 Scenario: Vamos a tener variedad para elegir productos 
   Given que la empresa también comparte promociones.
-  | Publiciadad | Data |
-  | productos  | costos |
+  |Publiciadad|Data|
+  |productos|costos|
   When los compradores busquemos el producto que buscamos
   Then podré ver promociones del producto 
 
