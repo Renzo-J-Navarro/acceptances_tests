@@ -6,6 +6,9 @@ Como comprador quiero acceder a mi información personal y datos de mi perfil pa
 Scenario: El comprador quiere acceder a su información personal 
   Given I have entered 50 into the calculator
   When  presiona la opción “Configuración y privacidad”
+    |necesario|datos|
+    |accecibilidad|personal|
+    |modificación|presentación|
   And se encuentra ubicado en la opción de ”Información general”
   Then la app muestra la información personal 
 
@@ -16,6 +19,9 @@ Como comprador quiero visualizar mis empresas favoritas para poder tener un fác
 
 Scenario: El comprador quiere visualizar sus empresas favoritas
   Given que el comprador quiere visualizar las empresas que más le gustan 
+    |selección|datos|
+    |prefrerencias|agradables|
+    |recomendaciones|similares|
   When presiona la opción “Empresas”
   And se encuentra ubicado en la opción de ”Favoritos”
   Then la app muestra las empresas favoritas
