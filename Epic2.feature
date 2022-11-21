@@ -1,4 +1,4 @@
-Feature Visualizar en las empresas del sector en el mapa de la app
+Feature: Visualizar en las empresas del sector en el mapa de la app
 
 Como comprador quiero visualizar empresas en el mapa de la app para conocer la variedad de empresas a las que visitar. 
 
@@ -7,7 +7,7 @@ Scenario: El comprador quiere visualizar empresas
   When presiona la opción “Más información”
   Then la app muestra una descripción 
 
-Feature Reconocer cuáles empresas son confiables 
+Feature: Reconocer cuáles empresas son confiables 
 
 Como dueño de un vehículo quiero saber si la empresa es confiable.
 
@@ -16,7 +16,7 @@ Scenario: El comprador analiza las diferentes empresas en base a la calificació
   When ve el producto que quiere compra el producto Y manda un mensaje al chat de la empresa para preguntar sobre el delivery 
   Then compra el producto o va al local para adquirir el servicio. 
 
-Feature Elección de una empresa 
+Feature: Elección de una empresa 
 
 Elegimos una empresa en base a la búsqueda que hemos hecho
 
@@ -25,7 +25,7 @@ Scenario: Vamos elegir de las diferentes empresas y elegiremos comparando precio
   When vimos las reseñas de los usuarios tienen buenas recomendaciones y decidimos ver los productos que venden
   Then nos decidimos por una empresa por el stock de sus productos.
 
-Feature Dejar una reseña 
+Feature: Dejar una reseña 
 
 Como comprador luego de haber comprado deja una reseña sobre la empresa para que otros usuarios se vean beneficiados
 
@@ -34,7 +34,7 @@ Scenario: El comprador quiere poner una reseña
   When presiona la opción “Valorar”
   Then la app muestra una interfaz de valoración para el negocio visitado. 
 
-Feature Tener un chat personal con el empresario que oferta los productos 
+Feature: Tener un chat personal con el empresario que oferta los productos 
 
 Como comprador quiero seguir cotizando los productos que he observado de dicha empresa
 
