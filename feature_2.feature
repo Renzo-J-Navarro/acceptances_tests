@@ -1,4 +1,3 @@
-
 Feature: visualizar las empresas favoritas
 
 Como comprador quiero visualizar mis empresas favoritas para poder tener un fácil acceso a ellas
