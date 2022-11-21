@@ -1,4 +1,4 @@
-Feature Tener variación en cuanto a productos y promociones
+Feature: Tener variación en cuanto a productos y promociones
 
 Como comprador quiero tener más variedad de productos, precios y promociones en cuanto a lo que busco
 
@@ -9,7 +9,7 @@ Scenario: Vamos a tener variedad para elegir productos
   When los compradores busquemos el producto que buscamos
   Then podré ver promociones del producto 
 
-Feature Publicar articulos en promocion
+Feature: Publicar articulos en promocion
 
 Como empresa publicamos promociones de diferente artículos para llamar la atención de los usuarios 
 
